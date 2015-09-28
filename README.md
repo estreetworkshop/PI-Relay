@@ -6,3 +6,4 @@ It is program is a service that monitors the directory /var/relay.  When it is e
 I use this as a relay to turn on/off speakers to my Raspberry pi.  My PI is an airplay client for my sound system. The idea is to save power when there isn't music playing.
 
 But what if two programs access the sound port simulateously?  Each one writes a separate files to /var/relay.  For instance I have my doorbell connected to this also.  That is a separate program that initiates a sound.
+
