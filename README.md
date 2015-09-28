@@ -7,3 +7,8 @@ I use this as a relay to turn on/off speakers to my Raspberry pi.  My PI is an a
 
 But what if two programs access the sound port simulateously?  Each one writes a separate files to /var/relay.  For instance I have my doorbell connected to this also.  That is a separate program that initiates a sound.
 
+# Installation
+
+Run make all
+Then make install
+
