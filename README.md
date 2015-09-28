@@ -10,5 +10,6 @@ But what if two programs access the sound port simulateously?  Each one writes a
 # Installation
 
 Run make all
+
 Then make install
 
